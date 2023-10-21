@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+/*
+font-family: 'Arvo', serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+i{
+    color: rgb(255, 106, 0);
+    margin-right: 10px;
+}
+body{
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+a{
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+.logo{
+    width: 400px;
+    height: 200px;
+    margin: 5px 5px;
+    background-image: url('/img/logo.jpeg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+.menu > ul, li, a{
+    margin: 0 10px;
+    padding: 7px 10px;
+    text-decoration: none;
+    color: rgb(255, 106, 0);
+    font-family: 'Arvo', serif;
+}
+.background-img{
+    background-image: url("/img/ferramentas-para-chaves-de-aco.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+}
+.button-contato{
+    background-color: transparent;
+    color: rgb(225, 225, 225);
+    border-radius: 30px;
+    padding: 20px;
+    border: 4px solid rgb(225, 225, 225);
+    font-size: larger;
+    text-decoration: none;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.button-contato:hover{
+    background-color: rgba(225, 225, 225, .4);
+    transition: 800ms;
+}
+.button-contato > a{
+    color: rgb(225, 225, 225);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5%;
+}
+.text > h1{
+    font-size: 60px;
+    font-family: 'Arvo', serif;
+    color: rgb(204, 204, 204);
+    margin-bottom: 70px;
+}
+.text > h2{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    color: rgb(204, 204, 204);
+    margin-bottom: 70px;
+}
+.text > p{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    color: rgb(204, 204, 204);
+    text-align: center;
+    line-height: 28px;
+    padding: 20px 0;
+}
+.quem-somos{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text-quem-somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.text-quem-somos > h2{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    color: rgb(204, 204, 204);
+    margin: 20px 0;
+}
+.text-quem-somos > p{
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+    text-align: center;
+    line-height: 28px;
+    padding: 20px 0;
+}
+.galeria{
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    height: auto;
+    width: 90%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.image-one, .image-two, .image-three{
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-image: url('/img/img1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: aliceblue;
+}
+/*
+.image-two{
+    width: 30%;
+    background-color: rgb(189, 117, 117);
+    height: 90%; 
+}
+.image-three{
+    width: 30%;
+    background-color: rgb(101, 17, 17);
+    height: 90%; 
+}
+*/
+.galeria > h2{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    color: rgb(204, 204, 204);
+    margin: 20px 0;
+}
+.contato{
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contato > h2{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    color: rgb(204, 204, 204);
+}
+.contato-coluna{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coluna-two{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    margin-top: 20px;
+}
+.form{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgba(225, 225, 225, .1);
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+}
+.button-contato-post{
+    margin:20px 0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgba(225, 225, 225, .1);
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+.button-contato-post:hover{
+    background-color: rgba(129, 128, 128, 0.5);
+    transition: 700ms;
+}
+.contato > ul{
+    margin-top: 30px;
+    text-decoration: none;
+    display: flex;
+}
+
+
+
+
+
+
+footer{
+    height: 40px;
+    background-color: rgb(57, 57, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.powered{
+    color: white;
+}
