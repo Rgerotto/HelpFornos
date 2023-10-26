@@ -31,7 +31,7 @@ a{
     width: 400px;
     height: 200px;
     margin: 5px 5px;
-    background-image: url('/img/logo.jpeg');
+    background-image: url('/Users/rafaelcoelho/HelpFornos/img/logo.jpeg');
     background-repeat: no-repeat;
     cursor: pointer;
 }
@@ -48,7 +48,7 @@ a{
     font-family: 'Arvo', serif;
 }
 .background-img{
-    background-image: url("/img/ferramentas-para-chaves-de-aco.jpg");
+    background-image: url("/Users/rafaelcoelho/HelpFornos/img/ferramentas-para-chaves-de-aco.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
@@ -152,7 +152,7 @@ a{
     height: 300px;
     border-radius: 10px;
     flex-direction: column;
-    background-image: url('/img/img1.jpeg');
+    background-image: url('/Users/rafaelcoelho/HelpFornos/img/img1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
