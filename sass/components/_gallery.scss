@@ -1,0 +1,57 @@
+.gallery {
+  @include center;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(84, 84, 84, 0.319);
+  clip-path: polygon(0 5vh, 100% 0, 100% 65vh, 0 100%);
+
+  &__subtitle {
+    font-weight: 900;
+    font-size: 5rem;
+    background: linear-gradient(to top, rgb(248, 188, 77) 30%, #cf1512 64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5rem;
+  }
+
+  &__img{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+
+    &--1{
+        box-shadow: .1rem .3rem .7rem rgba(255, 255, 255, 0.471);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all .2s;
+
+        &:hover{
+            box-shadow: .1rem .3rem .7rem rgb(255, 255, 255);
+        }
+    }
+
+    &--2{
+        box-shadow: .1rem .3rem .7rem rgba(255, 255, 255, 0.471);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all .2s;
+
+        &:hover{
+            box-shadow: .1rem .3rem .7rem rgb(255, 255, 255);
+        }
+    }
+
+    &--3{
+        box-shadow: .1rem .3rem .7rem rgba(255, 255, 255, 0.471);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all .2s;
+
+        &:hover{
+            box-shadow: .1rem .3rem .7rem rgb(255, 255, 255);
+        }
+    }
+  }
+}

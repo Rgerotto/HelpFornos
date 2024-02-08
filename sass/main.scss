@@ -3,3 +3,12 @@
 @import "navigation/nav";
 
 @import "page/home";
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/utilities";
+
+@import "components/about";
+@import "components/gallery";
+@import "components/contact";
+@import "components/footer";

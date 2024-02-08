@@ -1,0 +1,14 @@
+.about {
+  @include center;
+  color: white;
+  padding: 1rem 3rem 3rem 1rem;
+
+  &--subtitle {
+    padding-bottom: 1.4rem;
+  }
+
+  &--paragraph {
+    text-align: center;
+    line-height: 2rem;
+  }
+}
