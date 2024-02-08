@@ -7,11 +7,12 @@
   clip-path: polygon(0 5vh, 100% 0, 100% 65vh, 0 100%);
 
   &__subtitle {
-    font-weight: 900;
+    color: white;
+    /* font-weight: 900;
     font-size: 5rem;
     background: linear-gradient(to top, rgb(248, 188, 77) 30%, #cf1512 64%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     margin-bottom: 5rem;
   }
 

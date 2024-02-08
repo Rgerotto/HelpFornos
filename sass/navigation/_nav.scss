@@ -32,14 +32,14 @@
       transition: all 0.4s ease-in;
       background-size: 320%;
       &:not(:first-child) {
-        border-left: 2px solid rgba(202, 202, 202, 0.434);
+        border-left: 2px solid rgba(255, 68, 0, 0.495);
       }
       &:hover {
         background-image: linear-gradient(
           120deg,
           transparent 0%,
           transparent 50%,
-          rgba(255, 255, 255, 0.558) 50%
+          orangered 50%
         );
         color: rgb(0, 0, 0);
         background-position: 100%;
